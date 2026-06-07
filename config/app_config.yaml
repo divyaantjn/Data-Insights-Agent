@@ -1,0 +1,19 @@
+
+app:
+  name: "Data Analytics API"
+  version: "1.0.0"
+  host: "0.0.0.0"
+  port: 8000
+  debug: false
+
+search:
+  top_k: 15
+  batch_size: 100
+
+cache:
+  embeddings_dir: "data/cache/embeddings"
+  enabled: true
+
+session:
+  timeout: 3600
+  cleanup_interval: 300

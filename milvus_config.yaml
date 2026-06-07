@@ -1,0 +1,15 @@
+
+milvus:
+  host: "localhost"
+  port: 19530
+  user: ""
+  password: ""
+  
+collection:
+  metric_type: "IP"  # Inner Product (for normalized vectors)
+  index_type: "IVF_FLAT"
+  nlist: 100
+  nprobe: 10
+  
+search:
+  consistency_level: "Strong"
